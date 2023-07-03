@@ -1,0 +1,42 @@
+html{
+    font: 16px sans-serif;
+}
+*{
+    margin:0px ;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    border: 1px solid green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+.body{
+    height:190vh ;
+}
+.bodygrid{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(19,1fr);
+}
+.bcontainer{
+    grid-area:1/1/10/13 ;
+    border: 2px solid black;
+}
+.infocontainer{
+    grid-area:9/3/11/11 ;
+    border:3px solid yellow;
+}
+.page2{
+    grid-area: 10/1/20/13;
+    border: 3px solid black;
+}
+.background{
+    
+    height:30vh ;
+
+}
