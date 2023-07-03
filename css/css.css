@@ -6,6 +6,9 @@ html{
     padding: 0px;
     box-sizing: border-box;
 }
+.chrome{
+    height: 10vh;
+}
 header{
     border: 1px solid green;
     display: flex;
@@ -24,11 +27,11 @@ header{
     grid-template-rows: repeat(19,1fr);
 }
 .bcontainer{
-    grid-area:1/1/10/13 ;
+    grid-area:1/1/17/13 ;
     border: 2px solid black;
 }
 .infocontainer{
-    grid-area:9/3/11/11 ;
+    grid-area:15/3/19/11 ;
     border:3px solid yellow;
 }
 .page2{
