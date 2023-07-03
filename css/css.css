@@ -6,9 +6,8 @@ html{
     padding: 0px;
     box-sizing: border-box;
 }
-.chrome{
-    height: 10vh;
-}
+
+
 header{
     border: 1px solid green;
     display: flex;
