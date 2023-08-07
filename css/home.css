@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin-top: 50px;
+}
+header{
+    height: 50px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+}
+header p{
+    color: aliceblue;
+    margin-left: 10px;
+}
+.tabs{
+    height: 30px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.tablinks{
+    color: aliceblue;
+
+}
+.betpanels{
+    margin: 10px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.betpanelsbox{
+    width: 18%;
+    height: 100%;
+    background-color: gray;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+
+}
+.today{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.today p{
+    
+}
+.Booking p{
+    margin-left: 2.5%;
+    margin-top: 20px;
+}
+.BookingCodes{
+    width: 95%;
+    height: 60px;
+    margin-inline: auto;
+    border: 3px solid black;
+    margin-top: 10px;
+}
+.Featuredbox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center ;
+    margin-top: 10px;
+    height: 150px;
+    overflow-x:scroll;
+    scroll-snap-type:x mandatory;
+    
+
+}
+.Featuredboxes{
+    margin-right: 10px;
+    height: 100px;
+    width: 88%;
+    border: 3px solid black;
+    scroll-snap-align: center;
+}
+#firstfeatured{
+    margin-left: 10px;
+}
+.datebox{
+    margin-top: 10px;
+    display: grid;
+    justify-content: space-around;
+    grid-auto-flow: column;
+    grid-auto-columns: 15%;
+}
+.datebutton{
+    height: 40px;
+    width:100% ;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.Predictionsbox{
+    height: 100px;
+    width: 95vw;
+    margin-top: 10px;
+    margin-inline: auto;
+    border: 2px solid black;
+
+}
